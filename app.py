@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Get a reference to webcam #0 (the default one)
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
 arun_image = face_recognition.load_image_file("Pics/Arun.jpg")
